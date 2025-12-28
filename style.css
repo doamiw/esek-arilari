@@ -1411,11 +1411,6 @@ body {
     border: 1px solid #333;
 }
 
-.selection-card.highlighted {
-    border: 1px solid #dfb265;
-    background: #1e1b15;
-}
-
 .card-icon {
     font-size: 2.5rem;
     color: #dfb265;
@@ -1444,20 +1439,19 @@ body {
 .portal-btn {
     display: inline-block;
     margin-top: 10px;
-    background: #dfb265;
-    color: #000;
+    background: #333;
+    color: #fff;    
     padding: 8px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    border: 1px solid #444; 
+    transition: 0.3s;
 }
 
-.badge {
-    background: #333;
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-size: 0.7rem;
-    text-transform: uppercase;
+.portal-btn:hover {
+    background: #444; 
+    color: #dfb265; 
 }
 
 .portal-footer-note {
@@ -1465,4 +1459,5 @@ body {
     margin-top: 40px;
     color: #666;
     font-size: 0.9rem;
+
 }
